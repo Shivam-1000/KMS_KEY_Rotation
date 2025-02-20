@@ -15,7 +15,7 @@ data "aws_caller_identity" "current" {}
 
 resource "aws_kms_key" "example" {
   description             = "An example symmetric encryption KMS key"
-  enable_key_rotation     = true
+  enable_key_rotation     = false
  
 }
 
